@@ -1,0 +1,10 @@
+yfinance
+APScheduler
+scikit-learn
+XGBoost
+requests
+pandas
+numpy
+matplotlib
+python-telegram-bot
+concurrent.futures

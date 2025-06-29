@@ -1,0 +1,23 @@
+{
+  "stock_list": ["AAPL", "GOOGL", "MSFT", "AMZN", "TSLA"],
+  "thresholds": {
+    "buy": 0.02,
+    "sell": 0.02
+  },
+  "alert_conditions": {
+    "rsi_overbought": 70,
+    "rsi_oversold": 30
+  },
+  "telegram": {
+    "chat_id": "1992534713",
+    "token": "7277434928:AAFYTuWyrvCeKCIvZ1yNStnZiu_gb56AEcs"
+  },
+  "ml_model": {
+    "path": "models/trading_model.pkl",
+    "update_frequency": "daily"
+  },
+  "fetch_interval": 5,
+  "analysis_interval": 10,
+  "model_training_interval": 1,
+  "alert_interval": 15
+}
