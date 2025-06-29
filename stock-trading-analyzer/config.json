@@ -9,8 +9,8 @@
     "rsi_oversold": 30
   },
   "telegram": {
-    "chat_id": "1992534713",
-    "token": "7277434928:AAFYTuWyrvCeKCIvZ1yNStnZiu_gb56AEcs"
+    "chat_id": "",
+    "token": ""
   },
   "ml_model": {
     "path": "models/trading_model.pkl",
